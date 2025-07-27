@@ -1,0 +1,26 @@
+.title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#clock {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+#date {
+  font-size: 1rem;
+}
+
+#time {
+  font-size: 6rem;
+  font-weight: bold;
+}
