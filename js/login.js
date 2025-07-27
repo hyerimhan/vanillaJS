@@ -1,10 +1,11 @@
+const login = document.querySelector("#login");
 const loginForm = document.querySelector("#loginForm");
 const id = document.querySelector("#id");
 const pw = document.querySelector("#pw");
 
 function loginLoad() {
   if (localStorage.getItem("auth")) {
-    loginForm.innerHTML = "";
+    login.remove();
   }
 }
 
@@ -15,7 +16,7 @@ function handleSubmit(e) {
 
   if (localStorage.getItem("auth")) {
     alert("Welcome!");
-    loginForm.innerHTML = "";
+    login.remove();
   }
 }
 
