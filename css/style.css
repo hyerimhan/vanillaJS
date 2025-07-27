@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1em;
+  font-size: 4em;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
